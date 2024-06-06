@@ -1,1 +1,1 @@
-# sdmt
+# sdmt randomizer
