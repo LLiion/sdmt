@@ -1,0 +1,123 @@
+/* Grundläggande styling för webbläsaren */
+body {
+  background: #ffffff;
+  padding: 0px;
+  margin: 5px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: right;
+  box-sizing: border-box;
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.outer {
+  text-align: right;
+  margin: 0px;
+  padding: 30px;
+  border: 2px solid black;
+  display: inline;
+  position: absolute;
+  height: fit-content;
+  width: 195mm;
+}
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 2px solid black;
+  height: fit-content;
+  display: inherit;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  width: 100%;
+}
+
+.info {
+  margin-bottom: 0px;
+  padding: 0px;
+  border-left: 2px solid black;
+  display: inline;
+  position: inherit;
+  top: -1px;
+  right: -1px;
+  width: 30%;
+  height: 100%;
+  font-size: medium;
+}
+
+h6 {
+  align-items: right;
+  text-align: right;
+  margin: 5px ;
+  padding: 10px;
+  font-size: small;
+  font-weight: 100;
+}
+
+.full-width {
+  width: 100%;
+  text-align: left;
+  padding: 0px 10px 20px 20px;
+  display: block;
+  position: absolute;
+}
+
+.top_box {
+  min-width: 40%;
+  max-width: 80%;
+  margin: 0 20% 50px 20%;
+  align-items: center;
+  text-align: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  align-items: center;
+}
+
+td {
+  border: 1px solid black;
+  padding: 2px; /* Justera padding för att minska avstånd */
+  margin: 0;
+  display: inline-flexbox;
+  height: 30px;
+  width: 40px;
+  align-items: center;
+}
+
+.form_box_container {
+  color: #ffffff;
+  align-items: center;
+}
+
+tr {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.form_box {
+  margin-bottom: 45px; /* Marginalen mellan form_boxar */
+  align-items: center;
+}
+
+.thick-border-right {
+  border-right: 4px groove black;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0px 7px;
+  width: auto;
+  height: auto;
+  display:inherit;
+  align-self: center;
+  align-items: center;
+}
