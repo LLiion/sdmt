@@ -72,7 +72,7 @@ window.onload = function () {
 
     const formBoxContainer = document.getElementById('formBoxContainer');
 
-    for (let i = 0; i < 8; i++) { // Skapar 8 st form_box-tabeller
+    for (let i = 0; i < 8; i++) {
         const startIndex = i * 15;
         const formBox = document.createElement('div');
         formBox.classList.add('table_box', 'form_box');
@@ -87,14 +87,13 @@ window.onload = function () {
         formBoxContainer.appendChild(formBox);
     }
 
-    setInterval(updateTimer, 1000);
+    setInterval(updateTimer, 1000); // This has been removed
 
-    // Initial mapping
     updateTable();
 
-    // Shuffle and update table every 3 seconds
+    // Shuffle and update table every 10 seconds
     setInterval(function () {
         shuffleMappings();
         updateTable();
-    }, 2000);
+    }, 10000);
 }

@@ -1,4 +1,4 @@
-/* Grundläggande styling för webbläsaren */
+
 body {
   background: #ffffff;
   padding: 0px;
@@ -83,7 +83,7 @@ table {
 
 td {
   border: 1px solid black;
-  padding: 2px; /* Justera padding för att minska avstånd */
+  padding: 2px; /* spacing here */
   margin: 0;
   display: inline-flexbox;
   height: 30px;
@@ -103,7 +103,7 @@ tr {
 }
 
 .form_box {
-  margin-bottom: 45px; /* Marginalen mellan form_boxar */
+  margin-bottom: 45px; /* Row margin */
   align-items: center;
 }
 
